@@ -66,7 +66,7 @@ To make cleanup easiest, you may want to create a new project for this tutorial,
 "Cleaning up" section at the end of the tutorial.
 
 To complete this tutorial, you need a domain that you own or manage. If you don't yet have a domain, there are many services through which you can register a
-domain, such as [Google Domains](https://domains.google.com/). This tutorial uses the domain `democloud.info`.
+domain, such as [Google Domains](https://domains.google.com/). This tutorial uses [nip.io] for a custom domain name.
 
 1.  [Select or create a Google Cloud project.](https://console.cloud.google.com/projectselector2/home/dashboard)
 
@@ -216,7 +216,7 @@ Set environment variables that you use throughout the tutorial:
 
     Example output:
     
-        xxx.xxx.xxx.xxx.nio.io: PROVISIONING
+        xxx.xxx.xxx.xxx.nip.io: PROVISIONING
 
     Initially, the status is `PROVISIONING`. The status will eventually (might take up to 60 minutes) change to `ACTIVE`. Until it is `ACTIVE`, you won't be able
     to access your service.
@@ -492,7 +492,7 @@ If you don't want to delete the project, you can delete the provisioned resource
         --role=roles/secretmanager.secretAccessor
 
     gcloud run services delete $LOGIN_BACKEND_SVC_NAME \
-        --platform=managed --region=$REGION 
+        --platform=managed --region=$REGION
 
     gcloud container images delete gcr.io/$PROJECT_ID/flask_login
 
