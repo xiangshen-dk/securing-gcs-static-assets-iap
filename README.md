@@ -103,9 +103,6 @@ Shell, so that you don't need to install these packages locally.
 
 ### Get the sample code
 
-The sample code for this tutorial is in the
-[Google Cloud Community GitHub repository](https://github.com/GoogleCloudPlatform/community/tree/master/tutorials/securing-gcs-static-website).
-
 1.  Clone the repository:
 
         git clone https://github.com/xiangshen-dk/securing-gcs-static-assets-iap.git
