@@ -14,7 +14,7 @@ describes a solution to protect static assets on Cloud Storage using Cloud Load 
 
 The following diagram shows the high-level architecture of this solution:
 
-![gcs-static-arch](https://storage.googleapis.com/gcp-community/tutorials/securing-gcs-static-website/arch-gcs-site.png)
+![gcs-static-arch](/images/static-file.png)
 
 The architecture incorporates the following key features:
 
